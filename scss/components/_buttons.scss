@@ -1,0 +1,10 @@
+// _buttons.scss
+
+.btn-primary {
+    transition: transform 0.2s ease-in-out, background-color 0.2s ease;
+
+    &:hover {
+        transform: scale(1.05); // El botón se agranda un 5% al pasar el mouse
+        background-color: darken($primary-color, 10%); // La función darken() oscurece el color
+    }
+}

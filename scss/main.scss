@@ -1,0 +1,16 @@
+// main.scss
+
+// 1. Utilidades (primero siempre las variables)
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// 2. Componentes
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/buttons';
+
+// 3. Estilos generales (si los tuvieras)
+body {
+    font-family: $font-family-base; // Usando una variable de _variables.scss
+    background-color: #f8f9fa;
+}

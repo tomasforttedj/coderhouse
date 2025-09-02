@@ -1,78 +1,66 @@
 /* -------------------- ESTILOS GENERALES ------------------- */
-/* Aquí podemos definir estilos que afecten a todo el cuerpo, como la tipografía */
+
 body {
-    font-family: 'Helvetica', sans-serif; /* Ejemplo: Cambiamos la fuente de todo el sitio */
-    background-color: #f8f9fa; /* Un color de fondo suave para toda la página */
+    font-family: 'Helvetica', sans-serif; 
+    background-color: #f8f9fa; 
 }
 
 /* -------------------- HEADER / NAVBAR ------------------- */
-/* Sobreescribimos el color de fondo de la barra de navegación de Bootstrap.
-  Bootstrap usa la clase .bg-body-tertiary, nosotros la personalizamos.
-*/
+
 .navbar {
-    background-color: #F1F2EE !important; /* Tu color original. !important fuerza la sobreescritura */
+    background-color: #F1F2EE !important; 
     border-bottom: 1px solid #ddd;
 }
 
-/* Ajustamos el tamaño del logo dentro de la navbar */
+
 .logo-main {
-    width: 60px; /* Un tamaño más adecuado para una navbar */
+    width: 60px; 
     height: auto;
 }
 
-/* Personalizamos el color de los links de la navegación */
+
 .navbar .nav-link {
-    color: #333; /* Un color oscuro para los links */
+    color: #333; 
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0 10px; /* Agregamos un poco de espacio entre los links */
+    margin: 0 10px; 
 }
 
-/* Cambiamos el color del link cuando está activo o pasamos el mouse por encima */
+
 .navbar .nav-link:hover, .navbar .nav-link.active {
-    color: #007bff; /* Un color azul para destacar */
+    color: #007bff; 
 }
 
 
 /* -------------------- MAIN CONTENT ------------------- */
-/* No necesitamos estilizar 'main img' directamente. 
-  Bootstrap con la clase '.img-fluid' ya la hace responsive.
-  Podemos usar esta sección para estilizar títulos o textos del main.
-*/
+
 main h1 {
-    font-size: 2.5rem; /* Hacemos el título principal más grande */
+    font-size: 2.5rem; 
     margin-bottom: 20px;
 }
 
 
 /* -------------------- FOOTER ------------------ */
-/* El estilo del footer ahora lo controlamos con clases de Bootstrap en el HTML.
-  Pero si quisiéramos personalizarlo más, lo haríamos aquí.
-  Por ejemplo, agregar un borde superior.
-*/
+
 footer {
     border-top: 1px solid #444;
-    /* Los colores de fondo y texto ya están definidos en las clases de Bootstrap que pusimos en el HTML */
+   
 }
 
 
-/* ==========================================================================
-   ESTILOS PARA OTRAS PÁGINAS (Puedes agregarlos debajo a medida que avances)
-   ========================================================================== */
-
 /* -------------------- PÁGINA: TOURS ------------------ */
 .tabla-fechas {
-    /* Estilos para tu tabla de fechas */
+   
 }
 
 /* ------------------- PÁGINA: SOBRE MI ----------------- */
 .bio-sobremi p {
     text-align: center;
-    line-height: 1.6; /* Mejoramos la legibilidad del párrafo */
+    line-height: 1.6; 
 }
 
 /* ------------------- PÁGINA: CONTACTO ------------------ */
 .contacto p {
     font-style: italic;
-    font-size: 1.5rem; /* Usamos 'rem' en lugar de 'xx-large' para mejor responsividad */
+    font-size: 1.5rem; 
 }
