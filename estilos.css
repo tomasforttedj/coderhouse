@@ -64,3 +64,10 @@ footer {
     font-style: italic;
     font-size: 1.5rem; 
 }
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    // Con esta línea, le decimos al h1 que use la animación que creamos
+    animation: fadeIn 1.2s ease-out;
+}

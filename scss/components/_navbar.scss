@@ -1,7 +1,7 @@
 // _navbar.scss
 
 .navbar {
-    background-color: $light-color !important; // Usando una variable
+    background-color: $light-color !important; 
     border-bottom: 1px solid #ddd;
 
     .nav-link {
@@ -9,9 +9,8 @@
         font-weight: bold;
         text-transform: uppercase;
         margin: 0 10px;
-        transition: color 0.3s ease; // Agregando una transición suave
+        transition: color 0.3s ease; 
 
-        // El & es un comodín que se refiere al selector padre (.nav-link)
         &:hover, &.active {
             color: $primary-color;
         }
@@ -19,6 +18,6 @@
 
     .logo-main {
         width: 60px;
-        height: auto;
+        min-height: 60px;
     }
 }

@@ -1,0 +1,13 @@
+// _base.scss
+
+
+body {
+    font-family: $font-family-base; 
+    background-color: #f8f9fa; 
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 1.2s ease-out;
+}
